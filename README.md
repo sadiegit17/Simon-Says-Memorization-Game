@@ -14,7 +14,7 @@ User Inputs/Outputs Definitions:
     Specfic Range: digitalRead()
     Sensor Function/ Output: Selects [0] for blue LED and blue note
   Input: LEDs (0-9)
-    Sensors Used: CircuitPlaygroun.setPixelColor()
+    Sensors Used: CircuitPlayground.setPixelColor()
     Rnages: Orange- (255,100,0), Blue- (0,0,255)
     Sensor Function/ Output: Displays pattern, all blue, all orange
   Input: Speaker
