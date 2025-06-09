@@ -3,7 +3,7 @@ Game Description:
 This game is inspired by the Simon Says electronic game. LEDs 0-9 will each have either an orange or blue color in the 0-9 order. This will happen for 10 seconds, then the LEDs will turn off. The user must use this time to memorize the pattern and once the period is over, the serial monitor will read “Begin Pressing Buttons”. Now, the user must use the right and left buttons to recreate the displayed pattern from the LED 0-9 order. The right button will be orange, and the left button will be blue. The corresponding orange or blue note and LED color will happen each time a button is pressed. If at any point the user messes up the pattern, the serial monitor will read off “Game Over” and the game is reset. If the user completes a pattern, the serial monitor will read “Winner!” and the user will be assigned a different randomly generated pattern.  
 
 
-User Inputs/Outputs Definitions:
+User Inputs/Outputs Definitions: (Put README file into "raw" mode to see better organized table of Inputs/Outputs
 
   Input: Right Button (digital pin D5)
     Sensors Used: CircuitPlayground.rightButton()
